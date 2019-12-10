@@ -3,7 +3,7 @@
 
 all: tools dotfiles settings
 
-tools: homebrew nvm zsh
+tools: homebrew nvm zsh gcloud
 
 dotfiles:
 	ln -nfsv $(CURDIR)/git/gitconfig $(HOME)/.gitconfig

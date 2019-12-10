@@ -19,7 +19,7 @@ curl -sL https://github.com/PrivacyCloud/.dotfiles/archive/master.tar.gz | tar x
 Use `make` to run some predefined tasks:
 
 - `make all` installs the whole tooling suite as well as the dotfiles
-- `make tools` installs only the tooling suite ([brew](https://brew.sh), [nvm](https://github.com/creationix/nvm), [zsh](https://en.wikipedia.org/wiki/Z_shell))
+- `make tools` installs only the tooling suite ([brew](https://brew.sh), [nvm](https://github.com/creationix/nvm), [oh my zsh](https://github.com/ohmyzsh/ohmyzsh), [gcloud](https://cloud.google.com/sdk/))
 - `make dotfiles` installs only the dotfiles (by using symlinks)
 
 ## Credits
