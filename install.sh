@@ -9,20 +9,12 @@ brew bundle
 echo
 echo "Installing nvm..."
 echo
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
-echo
-echo "Installing Zsh..."
-echo
-sudo bash -c "echo $(which zsh) >> /etc/shells"
-chsh -s $(which zsh)
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 echo
 echo "Installing Oh My Zsh..."
 echo
 curl -L http://install.ohmyz.sh | sh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-mkdir -p $HOME/.oh-my-zsh/custom/plugins/nvm-auto-use && curl https://raw.githubusercontent.com/tomsquest/nvm-auto-use.zsh/master/nvm-auto-use.zsh -o $HOME/.oh-my-zsh/custom/plugins/nvm-auto-use/nvm-auto-use.plugin.zsh
 
 echo 
 echo "Installing gcloud..."
