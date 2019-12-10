@@ -24,6 +24,11 @@ curl -L http://install.ohmyz.sh | sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 mkdir -p $HOME/.oh-my-zsh/custom/plugins/nvm-auto-use && curl https://raw.githubusercontent.com/tomsquest/nvm-auto-use.zsh/master/nvm-auto-use.zsh -o $HOME/.oh-my-zsh/custom/plugins/nvm-auto-use/nvm-auto-use.plugin.zsh
 
+echo 
+echo "Installing gcloud..."
+echo
+curl https://sdk.cloud.google.com | bash
+
 echo
 echo "Installing dotfiles..."
 echo

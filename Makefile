@@ -24,6 +24,9 @@ zsh:
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $(HOME)/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 	mkdir -p $(HOME)/.oh-my-zsh/custom/plugins/nvm-auto-use && curl https://raw.githubusercontent.com/tomsquest/nvm-auto-use.zsh/master/nvm-auto-use.zsh -o $(HOME)/.oh-my-zsh/custom/plugins/nvm-auto-use/nvm-auto-use.plugin.zsh
 
+gcloud:
+	curl https://sdk.cloud.google.com | bash
+
 # It installs the following settings:
 #  - Enables macOS subpixel antialiasing. This is optional for machines with Retina display.
 settings:
