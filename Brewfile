@@ -1,5 +1,6 @@
 brew "git"
 brew "zsh"
+brew "yarn"
 
 cask "docker"
 cask "google-chrome"
