@@ -22,8 +22,8 @@ Use `make` to run some predefined tasks:
 - `make tools` installs only the tooling suite 
    - [Homebrew](https://brew.sh) and through  it:
       - Git
-      - Zsh
-      - Yarn
+      - [Zsh](https://en.wikipedia.org/wiki/Z_shell)
+      - [Yarn](https://yarnpkg.com/)
       - Docker
       - Google Chrome
       - Java
@@ -31,7 +31,7 @@ Use `make` to run some predefined tasks:
       - Slack
       - Visual Studio Code
    - [nvm](https://github.com/creationix/nvm)
-   - [zsh]() and [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+   - [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
    - [GCloud SDK](https://cloud.google.com/sdk/)
 - `make dotfiles` installs only the dotfiles (by using symlinks)
    - `.gitignore` and `.gitconfig`
